@@ -1,0 +1,42 @@
+================
+create
+
+post
+localhost:8000/users
+
+{
+    "email" : "aryejfa@gmail.com",
+    "address" : "Jalan Rustini. No. 1774",
+    "password" : "Semu4@2020"
+}
+================
+read
+
+get
+localhost:8000/users
+================
+update
+
+put
+localhost:8000/users
+
+{
+    "userid" : 5,
+    "email" : "kardusbackend5@gmail.com",
+    "address" : "Jalan Pantai Kapus. No. 23",
+    "password" : "Semu4@2020"
+}
+================
+delete
+
+delete
+localhost:8000/users/6
+================
+login
+
+get
+localhost:8000/login
+
+Username : EJFA
+Password : 123456
+================
