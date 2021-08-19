@@ -5,9 +5,9 @@ import (
 )
 
 type User struct {
-	GlobUserID 		int `json:"userid"`
-	GlobEmail		string `json:"email"`
-	GlobAddress		string `json:"address"`
+	GlobUserID 	int `json:"userid"`
+	GlobEmail	string `json:"email"`
+	GlobAddress	string `json:"address"`
 	GlobPassword	string `json:"password"`
 }
 
